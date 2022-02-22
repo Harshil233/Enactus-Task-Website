@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background:linear-gradient(#FFD200,#F8971D);
+}
+
+.navbar{
+    background-color:rgba(0, 0,0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    position: fixed;
+    width: 100vw;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li{
+    padding: 10px;
+}
+.navbar ul li a{
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.navbar ul li a:hover{
+    background-color: #FFD200;
+    color: black;
+}
+
+.navbar img{
+  margin-top:-10px;
+   align-items: center;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.home h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home img{
+    margin-top: -100px;
+}
+.home p{
+    text-align: center;
+    margin: 30px;
+}
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    /* background:#FFD200; */
+    text-align: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    background-color: aliceblue;
+    margin-top: 30px;
+    height: 100vh;
+}
+
+.aboutus h1{
+    color: #FFD200;
+    font-size: 5rem;
+}
+
+.aboutus p{
+    font-size: 3rem;
+}
+
+
+.CONTAINER {
+    background-image: url('https://www.enhancedtech.com/wp-content/uploads/2018/07/AI-world-forum-background-cropped-1920x1000.jpg');
+
+}
+
+
+.container{
+    background-image: url('https://www.enhancedtech.com/wp-content/uploads/2018/07/AI-world-forum-background-cropped-1920x1000.jpg');
+    display: flex;
+    flex-direction: column;
+    height: 60vw;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+.container h1{
+    color: white;
+   font-size: 3em;
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+
+.teamname{
+   
+   display: grid;
+   grid-gap: 5rem;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.team h1{
+    padding: 0px;
+    margin: 0px;
+}
+
+.team img {
+    margin-top: 10px;
+}
+
+#contact{
+    background: url("https://catalog.wlimg.com/templates-images/12569/12576/contact-bg.jpg");
+    height: 176px;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    margin-top: 30px;
+}
+
+#contact h1{
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.about{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   color: white;
+}
+
+.about a{
+    color: white;
+    text-decoration: none;
+}
+.about a:hover{
+    /* background-color: #F8971D; */
+    color: #FFD200;
+}
